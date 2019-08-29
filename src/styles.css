@@ -255,6 +255,18 @@
   background-size: cover;
 }
 
-.nav-item {
+/* .nav-item {
   font-size: 14px;
+} */
+
+@media (min-width:600px){
+  .nav-item {
+        font-size: 18 px;
+  }
+}
+
+@media (max-width:600px){
+  .nav-item {
+        font-size: 13 px;
+  }
 }
