@@ -174,18 +174,14 @@
   .jumbotron:before {
     animation: animatedBackground 30s linear infinite alternate-reverse;
   }
-  .nav-item {
-    font-size: 18px;
-  }
+
 }
 
 @media (max-width:600px){
   .jumbotron:before {
     animation: animatedBackground 60s linear infinite alternate-reverse;
   }
-  .nav-item {
-    font-size: 12px;
-  }
+
 }
 
 /**
@@ -259,4 +255,8 @@
   -moz-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
+}
+
+.nav-item {
+  font-size: 12px;
 }
